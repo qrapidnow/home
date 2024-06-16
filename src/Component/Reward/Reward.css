@@ -1,0 +1,151 @@
+.reward-container {
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+  flex-direction: column;
+  padding-bottom: 117px;
+  background-image: url("../img/bg5.png");
+}
+
+.reward-title {
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  width: 46%;
+  font-family: "poppins";
+}
+
+.highlight {
+  color: #00bf63;
+}
+
+.reward-cards {
+  padding-top: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.reward-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00bf63;
+  border-radius: 20px;
+  padding: 52px;
+  width: 202px;
+  box-sizing: border-box;
+}
+
+.reward-card-content {
+  text-align: center;
+  color: white;
+}
+
+.reward-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.reward-card-text {
+  font-size: 16px;
+  color: black;
+}
+
+.reward-card-image {
+  position: absolute;
+  top: 94%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+}
+
+.reward-card img {
+  height: 100px;
+}
+
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 768px) {
+  .reward-title {
+      font-size: 50px;
+      width: 70%;
+  }
+  .reward-card {
+      width: 180px;
+      padding: 40px;
+  }
+  .reward-card img {
+      height: 80px;
+  }
+  .reward-cards{
+    display: flex;
+    gap: 30px;
+  }
+  .reward-container{
+    padding: 0%;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .reward-title {
+      font-size: 40px;
+      width: 80%;
+  }
+  .reward-card {
+      width: 160px;
+      padding: 30px;
+  }
+  .reward-card img {
+      height: 70px;
+  }
+  .reward-cards {
+      gap: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .reward-title {
+    font-size: 30px;
+    width: 90%;
+  }
+  .reward-card {
+    width: 188px;
+    padding: 10px;
+    height: 214px;
+  }
+  .reward-card img {
+    height: 70px;
+  }
+  .reward-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .reward-container {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .reward-title {
+    font-size: 30px;
+    width: 90%;
+  }
+  .reward-card {
+    width: 188px;
+    padding: 10px;
+    height: 214px;
+  }
+  .reward-card img {
+    height: 70px;
+  }
+  .reward-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .reward-container {
+    padding-bottom: 40px;
+  }
+}
+
